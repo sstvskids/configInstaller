@@ -1,4 +1,5 @@
 local cfg = 'Sunlight'; -- Sunlight is the only option now lolz
+local url = 'https://github.com/sstvskids/configInstaller/tree/main/Sunlight';
 
 for _, folder in {'newvape', 'newvape/games', 'newvape/profiles', 'newvape/assets', 'newvape/libraries', 'newvape/guis'} do
 	if not isfolder(folder) then
@@ -7,5 +8,7 @@ for _, folder in {'newvape', 'newvape/games', 'newvape/profiles', 'newvape/asset
 end;
 
 local suc, res = pcall(function()
-    return warn('cfginstaller.lua - not finished yet lol');
+    for i,v in pairs(url) do
+        print(v);
+    end
 end);
