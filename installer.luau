@@ -1,0 +1,1 @@
+local cfg = 'Sunlight' -- Sunlight is the only option now lolz
