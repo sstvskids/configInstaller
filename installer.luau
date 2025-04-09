@@ -12,7 +12,7 @@ local suc, res = pcall(function()
     local jsonurl: string = game:HttpGet(files)
     for i,v in files do
 	if not isfile(v.name) then
-          	writefile(v.name, game:HttpGet(v.url))
+            writefile(v.name, game:HttpGet(v.url))
     	end
     end
 end);
